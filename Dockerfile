@@ -9,5 +9,6 @@ RUN yum install -y \
         libxml2-devel \
         libxslt-devel \
         libcurl-devel
+RUN pip install virtualenvwrapper ipython ipdb
 WORKDIR /
 
